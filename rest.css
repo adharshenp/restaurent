@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inconsolata', monospace;
+    text-decoration-color: white;
+    background-color: black;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin-left: 100px;
+    align-items: center;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+   }
+   .links:hover{
+    color: brown;
+}
+.logo{
+    width: 130px;
+    cursor: progress;
+    
+}
+.listitem{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.title{
+    margin-top: 13%;
+    margin-left: 8%;
+}
+.titleh2{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+#cr{
+    color: whitesmoke;
+}
+.titleimg{
+        width: 38%;
+        height: 80%;
+        position: absolute;
+        right: 10px;
+        bottom: 0;
+}
+
+ .titleh1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#abt{
+color: white;
+padding: 2%;
+
+}
+.about h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 2%;
+
+}
+#para{
+    font-size: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    padding: 2%;
+}
+#hr{
+    font-weight: bold;
+     padding-top: .5rem;
+     
+}
+
+.menu h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.rono{
+    padding: 5%;
+}
+.rono h2{
+    color: white;
+}
+.rono img {
+    width: 30%;
+    height: 80%;
+    position: relative;
+    right: 0px;
+    bottom: 2px;
+    
+}
+.rono img {
+    transform: translate(20%);
+    transition: bottom 1s, left 2s;
+
+}
+.rono img:hover#ad{
+    right: 40px;
+}
+.rono img:hover#sh{
+    bottom: 40px;
+
+}
+.rono img:hover#ha{
+
+    left: 40px;
+}
+
+.rono h3{
+    color: white;
+    padding-left: 25px;
+}
+.card{
+    color: white;
+    padding-left: 100px;
+    position: relative;
+}
+.card img{
+    width: 30;
+    height: 100%;
+    position: absolute;
+    right: 150px;
+    bottom: 0;  
+    animation: moving 1s infinite;
+}
+@keyframes moving{
+    100%{transform: rotate(360deg);}
+}
+.more{
+    text-decoration: none;
+    opacity: 40%;
+    background-color:yellow;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+.more:hover{
+   background-color: white;
+   opacity: 100%;
+
+}
+.order{
+    background-color: red;
+    font-weight: bolder;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 40px;
+    text-decoration: solid;
+    color: black;
+}
+.order:hover{
+    background-color: blue;
+    color: white;
+}
+.icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.icon1 i{ 
+    color: white;
+    padding: 2rem;
+    width: 20px;
+    padding-bottom: 4rem;
+} 
+.icon2:hover{
+ font-size: 2rem;
+ padding: 0px;
+ animation:flip 4s infinite;
+}
+@keyframes flip{
+    20%{
+        transform:rotate(72deg);
+    }
+    20%{
+        transform:rotate(144deg);
+    }
+    20%{
+        transform:rotate(216deg);
+    }
+    20%{
+        transform:rotate(288deg);
+    }
+    20%{
+        transform:rotate(360deg);
+    }
+
+
+
+}
+.cust{
+    color: white;
+}
+.cust h1{
+    color:white;
+    justify-content: center;
+    display: flex;
+}
+#custimg{
+    padding-top: 20px;
+    padding-left: 30rem; 
+    
+}
+.custoimg{
+    padding: 5rem;
+}
+#put1{
+    opacity: 50%;
+
+}
+#put1:hover{
+    opacity: 100%;
+    width: 27%;
+}
+
+
+  #put1{
+    width: 25%;
+    height: 75%;
+    padding: 3rem;
+    border-radius: 50%;
+  }
+  #put1 img{
+    right: 0px;
+    bottom: 2px;
+    
+
+ }  
+ #puttin1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    padding-left: 8rem;
+    padding-top: 4rem;
+ }
+
+#contact h2{
+    text-align: center;
+    padding-top: 5rem;
+}
+.qst{
+    width: 400px;
+    padding-top: 6rem;
+    padding-left: 35rem;
+}
+.btn{
+    background-color: black;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#btn1{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+#btn1:hover{
+background-color: blue;
+color: white;
+
+}
+
+
+
+
+#footer{
+    padding-top: 1rem;
+}
+.uparrow i{
+    float: right;
+    background-image: linear-gradient(to bottom right,white,white,white);
+    margin: 20px 40px 50px 20px;
+    border-radius: 2rem;
+    font-size: xx-large;
+    opacity: 0.5;
+}
+.uparrow i:hover{
+    opacity: 1;
+    background-image: none;
+
+}
+html{
+    scroll-behavior: smooth;
+}
